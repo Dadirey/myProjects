@@ -1,0 +1,74 @@
+* {
+  font-family: poppins;
+  border: none;
+}
+
+body {
+  background: url(./ppp.avif);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input {
+  background: rgba(248, 249, 248, 0.393);
+  font-weight: 600;
+}
+input ::placeholder{
+  color: white;
+}
+.div {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.151);
+  align-items: center;
+  padding-top: 5px;
+  border-radius: 8px;
+  text-align: center;
+  align-content: center;
+  width: 350px;
+}
+body {
+  background-color: rgb(25, 72, 72);
+}
+.firstline {
+  display: flex;
+  width: 83%;
+  justify-content: space-between;
+}
+.firstline input {
+  width: 46%;
+}
+.btn {
+  width: 80%;
+  height: 30px;
+  border-radius: 20px;
+  font-weight: bold;
+  background: #fff;
+}
+.btn a {
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #5ec0f8;
+  color: #fff;
+  border: solid 2px white;
+}
+.h1 {
+  margin-bottom: 5px;
+  color: #fff;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav input {
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 2%;
+  width: 80%;
+}
